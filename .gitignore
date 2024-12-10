@@ -2,6 +2,7 @@ node_modules
 SIMPLE_MESSAGE_SENDER.data.json
 _IGNORE_SIMPLE_MESSAGE_SENDER
 src/logs/*
+src/public/*
 
 # managed
 **.data.json
