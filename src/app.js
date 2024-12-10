@@ -15,7 +15,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Initialize WhatsApp client
-// initializeWAClient();
+initializeWAClient();
 
 // Render the Form
 app.get('/', (req, res) => {
