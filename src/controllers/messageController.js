@@ -75,7 +75,6 @@ const sendMessagesFromExcel = (req, res) => {
 
             // Render the success page
             console.log("Message sending process started. Progress will appear here.");
-            res.render('success');
 
             const logData = {
                 successLog: [],
